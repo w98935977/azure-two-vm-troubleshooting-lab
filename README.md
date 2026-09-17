@@ -1,5 +1,7 @@
 # Azure Two-VM Troubleshooting Lab
 
+![Azure Two-VM Troubleshooting Lab cover](docs/assets/azure-two-vm-troubleshooting-lab-cover.svg)
+
 Evidence-based troubleshooting lab for Azure east-west traffic across two Ubuntu VMs.
 
 The lab intentionally injects failures at the Azure network, Linux firewall, TCP listener, and HTTP application layers. Each scenario records the observed symptom, the command used to isolate it, and the recovery action.
@@ -101,4 +103,3 @@ docs/lab-runbook.md               Reproducible fault-injection exercises
 - TCP/8080 is limited to VM01's private IP after recovery.
 - Subscription IDs, public IPs, resource IDs, and credentials are intentionally excluded.
 - This is a learning lab, not a production reference architecture.
-
